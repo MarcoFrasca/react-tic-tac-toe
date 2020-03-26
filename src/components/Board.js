@@ -3,7 +3,6 @@ import { Square } from ".";
 
 class Board extends Component {
   renderSquare(i) {
-    console.log(this.props);
     return (
       <Square
         value={this.props.squares[i]}
